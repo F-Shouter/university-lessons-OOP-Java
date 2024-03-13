@@ -56,7 +56,7 @@ public class SubHours {
         this.hour = hour;
         
     }
-    public int getHora(){
+    public int getHour(){
     
         return hour;
     }
