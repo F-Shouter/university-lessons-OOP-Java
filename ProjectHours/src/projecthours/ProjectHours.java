@@ -20,6 +20,14 @@ public class ProjectHours {
         SubHours r1 = new SubHours();
         System.out.println("Using the empty constructor");
         System.out.println("Hours: " + r1.getHour() + ":" + r1.getMinute() + ":" + r1.getSecond());
+        System.out.println("\n\n"); //skip two lines
+        
+        //instantiane an object of the class SubHours
+        //using a constructor that requires hour, minute and second
+        SubHours r2 = new SubHours(115,70,98);
+        System.out.println("using a constructor that requires hour, minute and second");
+        System.out.println("Hours: " + r2.getHour() + ":" + r2.getMinute() + ":" + r2.getSecond());
+        System.out.println("\n\n"); //skip two lines 
     }
     
 }
