@@ -44,7 +44,11 @@ public class SubHours {
     //constructor #4
     public SubHours(int hour, int minute, int second){
     
-        this.hour = hour;
+        if ( 0 <= hour & hour < 24 ){
+            this.hour = hour;
+        }
+        else {System.out.println("invalid number for hour ! ! !");}
+        
         this.minute = minute;
         this.second = second;
         
