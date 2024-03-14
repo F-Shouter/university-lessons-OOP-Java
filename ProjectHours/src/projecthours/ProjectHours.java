@@ -28,6 +28,9 @@ public class ProjectHours {
         System.out.println("using a constructor that requires hour, minute and second");
         System.out.println("Hours: " + r2.getHour() + ":" + r2.getMinute() + ":" + r2.getSecond());
         System.out.println("\n\n"); //skip two lines 
+        
+        //r3 space to add code afterward 
+        //r4 space to add code afterward 
     }
     
 }
