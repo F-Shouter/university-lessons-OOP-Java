@@ -66,8 +66,10 @@ public class SubHours {
     }
     
     public void setMinute(int minute){
-    
-        this.minute = minute;
+        if ( 0 <= minute & minute < 60){
+            this.minute = minute;
+        }
+        else{System.out.println("invalid number for minute ! ! !");}
     }
     public int getMinute(){
     

@@ -39,7 +39,7 @@ public class ProjectHours {
         System.out.println("but assingning values acess methods");
         //but assingning values through acess methods
         r5.setHour(13);
-        r5.setMinute(40);
+        r5.setMinute(80);
         r5.setSecond(10);
         System.out.println("Hours: " + r5.getHour() + ":" + r5.getMinute() + ":" + r5.getSecond());
         System.out.println("\n\n"); //skip two lines
