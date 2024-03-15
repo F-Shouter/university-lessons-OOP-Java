@@ -51,3 +51,16 @@ invalid number for minute ! ! !
 Hours: 13:0:10
 ```
 ---
+---
+## Challenge 2
+```java
+//ProjectHours.java:
+//challenger 2: create object "r"
+        SubHours r = new SubHours(24);
+        System.out.println("Challenger 2: create object 'r'");
+        System.out.println("Hours: " + r.getHour());
+
+//Output - ProjectHours(run):
+Challenger 2: create object 'r'
+Hours: 24
+```
