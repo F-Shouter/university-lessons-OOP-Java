@@ -44,6 +44,10 @@ public class ProjectHours {
         System.out.println("Hours: " + r5.getHour() + ":" + r5.getMinute() + ":" + r5.getSecond());
         System.out.println("\n\n"); //skip two lines
         
+        //challenger 2: create object "r"
+        SubHours r = new SubHours(24);
+        System.out.println("Challenger 2: create object 'r'");
+        System.out.println("Hours: " + r.getHour());
     }
     
 }
