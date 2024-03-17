@@ -14,7 +14,14 @@ public class ProjectConvert {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String st, st2;
+        Float real, real2;
+        int int1, int2;
+        
+        //String to Float
+        st = "12";
+        real = (float)(new Float(st).floatValue());
+        System.out.println("String to Float " + real);
     }
     
 }
