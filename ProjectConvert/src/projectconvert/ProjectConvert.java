@@ -33,6 +33,11 @@ public class ProjectConvert {
         int1 = Integer.parseInt(st2);
         System.out.println("String to Integer " + int1);
 
+        //Integer to String
+        int2 = 5;
+        st2 = Integer.toString(int2);
+        System.out.println("Integer to String " + st2);
+
     }
     
 }
