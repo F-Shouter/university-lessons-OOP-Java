@@ -29,7 +29,13 @@ public class ProjectHours {
         System.out.println("Hours: " + r2.getHour() + ":" + r2.getMinute() + ":" + r2.getSecond());
         System.out.println("\n\n"); //skip two lines 
         
-        //r3 space to add code afterward 
+        //instantiane an object of the class SubHours
+        //using a constructor that requires hour and minute
+        SubHours r3 = new SubHours(3,57);
+        System.out.println("using a constructor that requies hour and minute");
+        System.out.println("Hours: " + r3.getHour() + ":" + r3.getMinute());
+        System.out.println("\n\n"); //skip two lines
+         
         //r4 space to add code afterward 
         
         //instantiane an object of the class SubHours
