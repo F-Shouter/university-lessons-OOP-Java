@@ -28,6 +28,11 @@ public class ProjectConvert {
         st2 = new Float(real2).toString();
         System.out.println("Float to String " + st2);
 
+        //String to Integer
+        st2 = "13";
+        int1 = Integer.parseInt(st2);
+        System.out.println("String to Integer " + int1);
+
     }
     
 }
