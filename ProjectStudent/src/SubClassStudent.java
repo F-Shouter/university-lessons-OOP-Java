@@ -14,7 +14,7 @@ public class SubClassStudent {
     
     //Constructor
     public SubClassStudent(){
-       average = 0; 
+        average = 0; 
     }
     
     //Acess methods
