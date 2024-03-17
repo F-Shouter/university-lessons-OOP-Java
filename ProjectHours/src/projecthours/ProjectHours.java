@@ -35,8 +35,13 @@ public class ProjectHours {
         System.out.println("using a constructor that requies hour and minute");
         System.out.println("Hours: " + r3.getHour() + ":" + r3.getMinute());
         System.out.println("\n\n"); //skip two lines
-         
-        //r4 space to add code afterward 
+
+        //instantiane an object of the class SubHours
+        //using a constructor that requires just hour  
+        SubHours r4 = new SubHours(16);
+        System.out.println("using a constructor that requires just hour");
+        System.out.println("Hours: " + r4.getHour());
+        System.out.println("\n\n"); //skip two lines
         
         //instantiane an object of the class SubHours
         //using empty constructor
