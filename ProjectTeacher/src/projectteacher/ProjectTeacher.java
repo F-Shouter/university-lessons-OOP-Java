@@ -14,7 +14,11 @@ public class ProjectTeacher {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        SubTeacher teacher = new SubTeacher("Fabiano",200);
+        teacher.calculateSalary();
+        System.out.println("Name: " + teacher.getName());
+        System.out.println("Salary: " + teacher.getSalary());
+        
     }
     
 }
