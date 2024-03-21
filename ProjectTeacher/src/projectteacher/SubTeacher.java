@@ -29,6 +29,12 @@ public class SubTeacher {
     public void setHours(double hours){
         this.hours = hours;
     }
+    public void setValuePerHour(double valuePerHour){
+        this.valuePerHour = valuePerHour;
+    }
+    public double getValuePerHour(){
+        return valuePerHour;
+    }
     public double getHours(){
         return hours;
     }

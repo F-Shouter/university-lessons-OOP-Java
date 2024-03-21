@@ -15,10 +15,11 @@ public class ProjectTeacher {
      */
     public static void main(String[] args) {
         SubTeacher teacher = new SubTeacher("Fabiano",200);
+        teacher.setValuePerHour(80);
         teacher.calculateSalary();
         System.out.println("Name: " + teacher.getName());
         System.out.println("Salary: " + teacher.getSalary());
-        
+        System.out.println("Value Per Hour: " + teacher.getValuePerHour());
     }
     
 }
