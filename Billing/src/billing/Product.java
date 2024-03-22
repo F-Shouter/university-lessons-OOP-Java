@@ -50,4 +50,8 @@ public class Product {
     public double getTotalSales(){
         return totalSales;
     }
+    
+    public void calculateTotalSales(){
+        totalSales = quantilySold * unitPrice;
+    }
 }
