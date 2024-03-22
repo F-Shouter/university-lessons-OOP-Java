@@ -9,5 +9,18 @@ package billing;
  * @author Fujoshi Shouter
  */
 public class Product {
+    private int code;
+    private String description;
+    private double unitPrice;
+    private int quantilySold;
+    private double totalSales;
     
+    //constructor
+    public Product (int code, String description, double unitPrice, int quantilySold){
+        this.code = code;
+        this.description = description;
+        this.unitPrice = unitPrice;
+        this.quantilySold = quantilySold;
+    }
+   
 }
