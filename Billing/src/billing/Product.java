@@ -16,6 +16,8 @@ public class Product {
     private double totalSales;
     
     //constructor
+    public Product(){}
+            
     public Product (int code, String description, double unitPrice, int quantilySold){
         this.code = code;
         this.description = description;
