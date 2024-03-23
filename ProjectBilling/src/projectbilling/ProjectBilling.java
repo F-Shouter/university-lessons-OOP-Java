@@ -42,7 +42,11 @@ public class ProjectBilling {
         System.out.println("\n" + "Would you like to see your order receipt? 1.[YES] or 2.[NO] ");
         num = output.nextInt();
         if (num == 1){
-            System.out.println("test");
+            System.out.println("Code: " + prod.getCode());
+            System.out.println("Description: " + prod.getDescription());
+            System.out.println("[ " + prod.getUnitPrice() + " ] x " + prod.getQuantilySold() + " unid.");
+            System.out.println("------------------------------------");
+            System.out.println("Total: " + prod.calculateTotal());
         }
         
         output.close();
