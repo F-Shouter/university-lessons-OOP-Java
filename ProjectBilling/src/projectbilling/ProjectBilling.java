@@ -38,6 +38,12 @@ public class ProjectBilling {
         
         System.out.println("------------------------------------");
         System.out.println("The Total: R$ " + prod.calculateTotal() + " reais.");
+        int num;
+        System.out.println("\n" + "Would you like to see your order receipt? 1.[YES] or 2.[NO] ");
+        num = output.nextInt();
+        if (num == 1){
+            System.out.println("test");
+        }
         
         output.close();
     }

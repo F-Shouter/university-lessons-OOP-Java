@@ -46,4 +46,5 @@ public class SubProduct {
     public double calculateTotal(){
         return unitPrice * quantilySold;
     }
+    
 }
