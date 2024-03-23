@@ -41,5 +41,9 @@ public class SubProduct {
     }
     public int getQuantilySold(){
         return quantilySold;
-    } 
+    }
+    
+    public double calculateTotal(){
+        return unitPrice * quantilySold;
+    }
 }
