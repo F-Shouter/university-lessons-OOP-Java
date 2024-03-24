@@ -49,6 +49,10 @@ public class ProjectBilling {
             System.out.println("------------------------------------");
             System.out.println("Total: " + prod.calculateTotal());
         }
+        else if (num == 2){
+            System.out.println("End.");
+        }
+        else {System.out.println("?");}
         
         output.close();
     }
