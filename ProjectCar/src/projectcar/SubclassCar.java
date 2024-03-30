@@ -19,6 +19,6 @@ public class SubclassCar {
         this.model = model;
     }
     public String toString(){
-        return "Car{" + "year=" + year + "brand=" + brand + "model=" + model + '}';
+        return "Car{ " + " year= " + year + " brand= " + brand + " model= " + model + " }";
     }
 }
