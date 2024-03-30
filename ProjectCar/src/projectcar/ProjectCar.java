@@ -14,7 +14,13 @@ public class ProjectCar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        SubclassCar car1 = new SubclassCar(2009,"Hyundai","veloster");
+        SubclassCar car2 = new SubclassCar(2022,"Honda","animazon");
+        SubclassCar car3 = new SubclassCar(2024,"RB20","temor");
+        
+        System.out.println(car1);
+        System.out.println(car2);
+        System.out.println(car3);
     }
     
 }
