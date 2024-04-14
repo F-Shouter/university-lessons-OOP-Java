@@ -16,6 +16,9 @@ public class Hourly extends Employee{
         super(name, address);
         this.hours = hours;
     }
+    
+    public Hourly(){}
+    
     public void setHours(double hours) {
         this.hours = hours;
     }

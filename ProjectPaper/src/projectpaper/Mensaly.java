@@ -16,6 +16,7 @@ public class Mensaly extends Employee{
         super(name, address);
         this.office = office;
     }
+    public Mensaly(){}
     
     //Acess methods
     public void setOffice(String office) {

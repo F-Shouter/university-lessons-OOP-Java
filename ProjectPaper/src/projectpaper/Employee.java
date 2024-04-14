@@ -17,6 +17,7 @@ public class Employee {
         this.name = name;
         this.address = address;
     }
+    public Employee(){}
     
     //acess methods
     public void setName(String name) {
