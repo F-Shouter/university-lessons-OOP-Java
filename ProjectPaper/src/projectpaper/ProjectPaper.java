@@ -17,6 +17,7 @@ public class ProjectPaper {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Employee emp = new Employee();
+        Mensaly men = new Mensaly();
         
         System.out.println("Name?");
         String name = input.nextLine();
@@ -32,7 +33,7 @@ public class ProjectPaper {
         input.nextLine();
         
         if(number == 1){
-            Mensaly men = new Mensaly();
+            
             System.out.println("Is your position Junior, Pleno ou Senior?");
             String office = input.nextLine();
             men.setOffice(office);
@@ -40,7 +41,7 @@ public class ProjectPaper {
             men.calculateWage();
             men.calculateINSS();
             
-            System.out.println("Name: " + emp.getName());
+            System.out.println("Name: " + men.getName());
             System.out.println("Address: " + emp.getAddress());
             System.out.println("Office: " + men.getOffice());
             System.out.println("Wage: " + men.getWage());

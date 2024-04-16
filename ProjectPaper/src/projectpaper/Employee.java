@@ -20,7 +20,7 @@ public class Employee {
     public Employee(){}
     
     //acess methods
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
     public void setAddress(String address) {
