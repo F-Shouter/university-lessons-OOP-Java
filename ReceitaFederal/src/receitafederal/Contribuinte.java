@@ -8,11 +8,18 @@ package receitafederal;
  *
  * @author Fujoshi Shouter
  */
-public class Contribuiente {
+public class Contribuinte {
     private String nome;
     protected double rendaBrutalAnual;
     protected double rendaLiquidaAnual;
+    
+    //Contrutor
+    public Contribuinte (String nome, double rendaBrutalAnual){
+        this.nome = nome;
+        this.rendaBrutalAnual = rendaBrutalAnual;
+    }
 
+    //Metodos de acesso
     public String getNome() {
         return nome;
     }
@@ -34,6 +41,7 @@ public class Contribuiente {
     }
     
     public double calcularRendaLiquida(double abatimento1, double abatimento2){
-      return (rendaBrutalAnual - (abatimento1 + abatimento2));
+      rendaLiquidaAnual = (rendaBrutalAnual - (abatimento1 + abatimento2));
+      return rendaLiquidaAnual;
     }
 }
