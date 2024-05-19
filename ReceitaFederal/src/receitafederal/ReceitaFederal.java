@@ -15,7 +15,7 @@ public class ReceitaFederal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Fisico fis = new Fisico("Anne", 24000, 265002, 0, 12000);
+        Fisico fis = new Fisico("Execução 3", 35000, 99999, 7500, 4800);
         
         System.out.println("Nome.................: " + fis.getNome() + " ,CPF: " + fis.getCpf());
         System.out.println("Renda bruta anual....: " + fis.getRendaBrutalAnual());
@@ -27,6 +27,20 @@ public class ReceitaFederal {
         System.out.println("Imposto calculado sob: " + fis.calcularImpostoDeRenda());
         System.out.println("------------------------------------------");
         System.out.println("Renda FINAL..........: " + (fis.calcularRendaLiquida(fis.getGastosSaude(), fis.getGastosEducacao()) - fis.calcularImpostoDeRenda()));
+        System.out.println("");
+        
+        Juridico jur = new Juridico("Execução 5", 180000, 77777, 35000, 9500);
+        
+        System.out.println("Nome.................: " + jur.getNome() + " ,CNPJ: " + jur.getCnpj());
+        System.out.println("Renda bruta anual....: " + jur.getRendaBrutalAnual());
+        System.out.println("Gastos pessoais......: " + jur.getGastosPessoal());
+        System.out.println("Gastos equipamentos..: " + jur.getGastosEquipamentos());
+        System.out.println("------------------------------------------");
+        System.out.println("Renda liquida anual..: " + jur.calcularRendaLiquida(jur.getGastosPessoal(), jur.getGastosEquipamentos()));
+        System.out.println("...");
+        System.out.println("Imposto calculado sob: " + jur.calcularImpostoDeRenda());
+        System.out.println("------------------------------------------");
+        System.out.println("Renda FINAL..........: " + (jur.calcularRendaLiquida(jur.getGastosPessoal(), jur.getGastosEquipamentos()) - jur.calcularImpostoDeRenda()));
     }
     
 }

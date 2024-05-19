@@ -51,9 +51,9 @@ public class Juridico extends Contribuinte{
         if (rendaLiquidaAnual <= 100000) {
             irj = rendaLiquidaAnual * 0.05;
         } else if (rendaLiquidaAnual <= 200000) {
-            irj = rendaLiquidaAnual * 0.1;
+            irj = (rendaLiquidaAnual * 0.1) - 5000;
         } else {
-            irj = rendaLiquidaAnual = 0.3;
+            irj = (rendaLiquidaAnual = 0.3) - 45000;
         }
         return irj;
     }

@@ -52,9 +52,9 @@ public class Fisico extends Contribuinte {
         if (rendaLiquidaAnual <= 10000) {
             irf = 0;
         } else if (rendaLiquidaAnual <= 20000) {
-            irf = rendaLiquidaAnual * 0.1;
+            irf = (rendaLiquidaAnual * 0.1) - 1000;
         } else {
-            irf = rendaLiquidaAnual = 0.25;
+            irf = (rendaLiquidaAnual * 0.25) - 4000;
         }
         return irf;
     }
