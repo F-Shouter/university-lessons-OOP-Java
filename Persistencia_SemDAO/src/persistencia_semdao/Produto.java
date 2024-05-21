@@ -57,8 +57,8 @@ public class Produto {
     private Connection getConexao() throws SQLException {
         try{
             //O metodo forName carrega e inicia o driver passado por parametro
-            Class.forName("com.mysql.jdbc.Driver"); //verifica em seu computador
-            String URL = "jdbc:mysql//localhost:3306/aula_ioo"; //verifica em seu computador
+            Class.forName("com.mysql.cj.jdbc.Driver"); //verifica em seu computador
+            String URL = "jdbc:mysql://localhost:3306/aula_ioo"; //verifica em seu computador
             String USER = "root"; //verifica em seu computador
             String PASSWORD = null;
             
