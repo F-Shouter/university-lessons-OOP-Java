@@ -100,7 +100,7 @@ public class ConversorGUI extends javax.swing.JFrame {
         
         //ajustar graus Celsius para o tipo double e converter para Fahrenheit 
         int tempFahr = (int)((Double.parseDouble(tempTxt.getText())) * 1.8 + 32);
-        fahrenheitLbl.setText(tempFahr + "Fahrenheit");
+        fahrenheitLbl.setText(tempFahr + " Fahrenheit");
     }//GEN-LAST:event_converterBtnActionPerformed
 
     /**
