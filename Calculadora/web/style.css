@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bungee+Shade&display=swap');
 body{
     margin: 0px;
     background: url(gif.gif);
@@ -13,17 +14,45 @@ body{
     align-items: center;
 }
 .box{
-    width: 80vw;
-    height: 55vh;
-    background: #ffffffde;
+    width: 90vw;
+    height: 60vh;
+    background: #ffffff25;
     border-radius: 25px;
+    margin-bottom: 100px;
 }
-fieldset{
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
-legend{
-    text-align: center;
+.btn{
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+    padding: 10px 20px; /* Aumenta o tamanho do botão */
+    margin: 10px; /* Adiciona espaçamento entre os botões */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    background-color: #ffffff6e; /* Define a cor de fundo */
+    color: #ffffff; /* Define a cor do texto */
+    border-color: #ffffff00;
+    box-shadow: 3px 5px;
+}
+h1{
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+p{
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: white;
+}
+#btnv1, #btnv2 {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte dentro da caixa de texto */
+    padding: 10px; /* Aumenta o espaçamento interno */
+    width: 200px; /* Define uma largura maior para a caixa de texto */
+    border: 3px solid #ffffff; /* Define uma borda com 2px de espessura */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
 }
