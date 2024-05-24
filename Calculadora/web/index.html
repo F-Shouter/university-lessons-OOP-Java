@@ -9,33 +9,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <style>
-        body{
-            margin: 0px;
-            background: url(gif.gif);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .container{
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .box{
-            width: 80vw;
-            height: 55vh;
-            background: #ffffffde;
-            border-radius: 25px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
     <div class="container">
             <div class="box">
+                <fieldset>
+                    <legend>Calculadora</legend>
+                    <form action="SCalculadora" method="get">
+                        <p>v1: <input type="number" name="txtv1" id="btnv1"></p>
+                        <p>v2: <input type="number" name="txtv2" id="btnv2"></p>
+                </fieldset>
             </div>
     </div>
 </body>
