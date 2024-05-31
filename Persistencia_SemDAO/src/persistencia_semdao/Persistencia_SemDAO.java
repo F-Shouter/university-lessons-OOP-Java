@@ -17,13 +17,33 @@ public class Persistencia_SemDAO {
      */
     public static void main(String[] args) throws SQLException {
         // TODO code application logic here
-        Produto p = new Produto();
+        /*Produto p = new Produto();
         p.setDescricao("mouse");
         p.setPreco(36);
         
         try{
             p.cadastrar();
             System.out.println("Cadastrado com sucesso!");
+        }catch (ClassNotFoundException | SQLException ex){
+            System.out.println("ERRO: " + ex.getMessage());
+        }
+        
+        Produto p = new Produto();
+        p.setId(4);
+        
+        try{
+            p.deletar();
+            System.out.println("Deletado com sucesso!");
+        }catch (ClassNotFoundException | SQLException ex){
+            System.out.println("ERRO: " + ex.getMessage());
+        }*/
+        
+        Produto p = new Produto();
+        p.setId(2);
+        
+        try{
+            p.consultar();
+            System.out.println("Consultado com sucesso!");
         }catch (ClassNotFoundException | SQLException ex){
             System.out.println("ERRO: " + ex.getMessage());
         }
